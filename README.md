@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🐍 Snake DQN — A Deep Q-Learning Agent Written in Raw C++
 
 A self-contained **Deep Q-Network (DQN)** that learns to play Snake from scratch — no ML frameworks, no Python, no external dependencies. Just C++ standard library, a hand-rolled neural network, Adam optimizer, and a BFS-based "safety net" planner to keep the snake from making obviously fatal moves while it's still learning.
@@ -216,3 +217,6 @@ If this project helped you understand DQN, **consider giving it a ⭐** — it h
 ## 📄 License
 
 MIT — see [LICENSE](LICENSE). Do whatever you want with it, attribution appreciated.
+=======
+# SnakeGame-models
+>>>>>>> e81182be62dbe8fe935fa3e59007b3381a44282d
