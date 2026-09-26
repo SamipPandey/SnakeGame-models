@@ -53,13 +53,12 @@ Key ideas implemented here, straight from the DeepMind DQN lineage:
 
 ```
 snake-dqn-rl/
-├── src/
+├── models/
 │   ├── snake_dqn_train.cpp        # Full training run (5,000 episodes, reward shaping)
 │   └── snake_dqn_quicktest.cpp    # Fast smoke-test build (30 episodes) to sanity-check the build
-├── models/
-│   └── snake_best_model.txt       # Pretrained weights — the best model found during training
+|    
 ├── docs/
-│   └── (add training logs / screenshots / gifs here)
+│   └── snake_best_model.txt # Pretrained weights — the best model found during training
 ├── .gitignore
 ├── LICENSE
 └── README.md
