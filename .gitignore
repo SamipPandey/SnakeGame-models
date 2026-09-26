@@ -1,4 +1,4 @@
-# ===== Compiled binaries =====
+
 *.exe
 *.out
 *.o
@@ -10,7 +10,6 @@
 *.dSYM/
 a.out
 
-# Common output names for this project
 snake_dqn_train
 snake_dqn_quicktest
 snake_dqn_train.exe
@@ -18,19 +17,14 @@ snake_dqn_quicktest.exe
 model1
 model2
 
-# ===== Build directories =====
 build/
 bin/
 out/
 cmake-build-*/
 
-# ===== Model checkpoints produced by training runs =====
-# (the curated "best" model is intentionally tracked in /models,
-# everything else generated locally stays untracked)
 snake_final_model.txt
 *_checkpoint.txt
 
-# ===== OS / editor junk =====
 .DS_Store
 Thumbs.db
 .vscode/
